@@ -35,7 +35,13 @@ def deluxe_curfew_checker(time)
 end
 
 def platinum_curfew_checker(time)
-  
+  if time == 23
+    puts "Time to apparate!"
+  elsif time > 23
+    puts "You're in trouble! Better get back to Hogwarts quick!"
+  elsif time < 23
+    puts "You have #{23 - time} hour(s) to keep having fun!"
+  end
 end
 
 simple_curfew_checker(Time.now.hour)
