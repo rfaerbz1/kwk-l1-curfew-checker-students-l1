@@ -38,7 +38,7 @@ def platinum_curfew_checker(time)
   
 end
 
-# simple_curfew_checker(Time.now.hour)
-#curfew_checker(Time.now.hour)
-#complex_curfew_checker(Time.now.hour)
+simple_curfew_checker(Time.now.hour)
+curfew_checker(Time.now.hour)
+complex_curfew_checker(Time.now.hour)
 deluxe_curfew_checker(Time.now.hour)
